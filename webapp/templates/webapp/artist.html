@@ -22,14 +22,14 @@ Purchase:
     <meta name="author" content="kamleshyadav">
     <meta name="MobileOptimized" content="320">
     <!--Start Style -->
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/swiper/css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/nice_select/nice-select.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/player/volume.css">
-	<link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/js/plugins/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/js/plugins/nice_select/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/js/plugins/player/volume.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'webapp/js/plugins/scroll/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/style.css">
     <!-- Favicon Link -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
@@ -61,10 +61,10 @@ Purchase:
             <div class="ms_sidemenu_inner">
                 <div class="ms_logo_inner">
                     <div class="ms_logo">
-                        <a href="index.html"><img src="images/logo.png" alt="" class="img-fluid"/></a>
+                        <a href="index.html"><img src="{% static 'webapp/images/logo.png" alt="" class="img-fluid"/></a>
                     </div>
                     <div class="ms_logo_open">
-                        <a href="index.html"><img src="images/open_logo.png" alt="" class="img-fluid"/></a>
+                        <a href="index.html"><img src="{% static 'webapp/images/open_logo.png" alt="" class="img-fluid"/></a>
                     </div>
                 </div>
                 <div class="ms_nav_wrapper">
@@ -202,7 +202,7 @@ Purchase:
                     <div class="ms_top_search">
                         <input type="text" class="form-control" placeholder="Search Music Here..">
                         <span class="search_icon">
-							<img src="images/svg/search.svg" alt="">
+							<img src="{% static 'webapp/images/svg/search.svg" alt="">
 						</span>
                     </div>
                     <div class="ms_top_trend">
@@ -211,7 +211,7 @@ Purchase:
                 </div>
                 <div class="ms_top_right">
                     <div class="ms_top_lang">
-                        <span data-toggle="modal" data-target="#lang_modal">languages <img src="images/svg/lang.svg" alt=""></span>
+                        <span data-toggle="modal" data-target="#lang_modal">languages <img src="{% static 'webapp/images/svg/lang.svg" alt=""></span>
                     </div>
 					<div class="ms_top_btn">
                         <a href="javascript:;" class="ms_btn reg_btn" data-toggle="modal" data-target="#myModal"><span>register</span></a>
@@ -231,11 +231,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song1.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song1.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -245,7 +245,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -257,11 +257,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song2.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song2.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -271,7 +271,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -283,11 +283,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song3.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song3.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -297,7 +297,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -309,11 +309,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song4.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song4.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -323,7 +323,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -335,11 +335,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song5.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song5.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -349,7 +349,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -361,11 +361,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song6.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song6.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -375,7 +375,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -387,11 +387,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song1.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song1.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -401,7 +401,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -413,11 +413,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song2.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song2.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -427,7 +427,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -439,11 +439,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song3.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song3.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -453,7 +453,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -465,11 +465,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/featured/song4.jpg" alt="">
+                                        <img src="{% static 'webapp/images/featured/song4.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -479,7 +479,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -507,11 +507,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music1.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/music/r_music1.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -521,7 +521,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -533,11 +533,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist1.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist1.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -547,7 +547,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -559,11 +559,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist2.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist2.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -573,7 +573,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -585,11 +585,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist3.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist3.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -599,7 +599,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -611,11 +611,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist4.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist4.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -625,7 +625,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -637,11 +637,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist5.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist5.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -651,7 +651,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -663,11 +663,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist6.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist6.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -677,7 +677,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -689,11 +689,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist7.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist7.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -703,7 +703,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -715,11 +715,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist8.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist8.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -729,7 +729,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -741,11 +741,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song6.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/featured/song6.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -755,7 +755,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -767,11 +767,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album4.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/album/album4.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -781,7 +781,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -793,11 +793,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song2.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/featured/song2.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -807,7 +807,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -819,11 +819,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist9.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist9.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -833,7 +833,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -845,11 +845,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist10.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist10.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -859,7 +859,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -871,11 +871,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist11.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist11.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -885,7 +885,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -897,11 +897,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist12.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist12.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -911,7 +911,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -923,11 +923,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/artist/artist13.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/artist/artist13.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -937,7 +937,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -949,11 +949,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box marger_bottom30">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song4.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/featured/song4.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -963,7 +963,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -975,11 +975,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album2.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/album/album2.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -989,7 +989,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1001,11 +1001,11 @@ Purchase:
                         <div class="col-lg-2 col-md-6">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album3.jpg" alt="" class="img-fluid">
+                                    <img src="{% static 'webapp/images/album/album3.jpg" alt="" class="img-fluid">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
-                                            <img src="images/svg/more.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                         </div>
                                         <ul class="more_option">
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1015,7 +1015,7 @@ Purchase:
                                             <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                         </ul>
                                         <div class="ms_play_icon">
-                                            <img src="images/svg/play.svg" alt="">
+                                            <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1039,11 +1039,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img1.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img1.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1053,7 +1053,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1065,11 +1065,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img2.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img2.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1079,7 +1079,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1091,11 +1091,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img3.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img3.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1105,7 +1105,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1117,11 +1117,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img4.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img4.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1131,7 +1131,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1143,11 +1143,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img5.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img5.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1157,7 +1157,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1169,11 +1169,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img6.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img6.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1183,7 +1183,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1195,11 +1195,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img1.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img1.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1209,7 +1209,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1221,11 +1221,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img2.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img2.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1235,7 +1235,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1247,11 +1247,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img3.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img3.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1261,7 +1261,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1273,11 +1273,11 @@ Purchase:
                             <div class="swiper-slide">
                                 <div class="ms_rcnt_box">
                                     <div class="ms_rcnt_box_img">
-                                        <img src="images/radio/img4.jpg" alt="">
+                                        <img src="{% static 'webapp/images/radio/img4.jpg" alt="">
                                         <div class="ms_main_overlay">
                                             <div class="ms_box_overlay"></div>
                                             <div class="ms_more_icon">
-                                                <img src="images/svg/more.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/more.svg" alt="">
                                             </div>
                                             <ul class="more_option">
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
@@ -1287,7 +1287,7 @@ Purchase:
                                                 <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                             </ul>
                                             <div class="ms_play_icon">
-                                                <img src="images/svg/play.svg" alt="">
+                                                <img src="{% static 'webapp/images/svg/play.svg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1308,7 +1308,7 @@ Purchase:
         <!----Footer Start---->
         <div class="ms_footer_wrapper">
             <div class="ms_footer_logo">
-                <a href="index.html"><img src="images/open_logo.png" alt=""></a>
+                <a href="index.html"><img src="{% static 'webapp/images/open_logo.png" alt=""></a>
             </div>
             <div class="ms_footer_inner">
                 <div class="row">
@@ -1322,9 +1322,9 @@ Purchase:
                         <div class="footer_box footer_app">
                             <h1 class="footer_title">Download our App</h1>
                             <p>Go Mobile with our app.<br> Listen to your favourite songs at just one click. Download Now !</p>
-                            <a href="#" class="foo_app_btn"><img src="images/google_play.jpg" alt="" class="img-fluid"></a>
-                            <a href="#" class="foo_app_btn"><img src="images/app_store.jpg" alt="" class="img-fluid"></a>
-                            <a href="#" class="foo_app_btn"><img src="images/windows.jpg" alt="" class="img-fluid"></a>
+                            <a href="#" class="foo_app_btn"><img src="{% static 'webapp/images/google_play.jpg" alt="" class="img-fluid"></a>
+                            <a href="#" class="foo_app_btn"><img src="{% static 'webapp/images/app_store.jpg" alt="" class="img-fluid"></a>
+                            <a href="#" class="foo_app_btn"><img src="{% static 'webapp/images/windows.jpg" alt="" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -1350,7 +1350,7 @@ Purchase:
                             <ul class="foo_con_info">
                                 <li>
                                     <div class="foo_con_icon">
-                                        <img src="images/svg/phone.svg" alt="">
+                                        <img src="{% static 'webapp/images/svg/phone.svg" alt="">
                                     </div>
                                     <div class="foo_con_data">
                                         <span class="con-title">Call us :</span>
@@ -1359,7 +1359,7 @@ Purchase:
                                 </li>
                                 <li>
                                     <div class="foo_con_icon">
-                                        <img src="images/svg/message.svg" alt="">
+                                        <img src="{% static 'webapp/images/svg/message.svg" alt="">
                                     </div>
                                     <div class="foo_con_data">
                                         <span class="con-title">email us :</span>
@@ -1368,7 +1368,7 @@ Purchase:
                                 </li>
                                 <li>
                                     <div class="foo_con_icon">
-                                        <img src="images/svg/add.svg" alt="">
+                                        <img src="{% static 'webapp/images/svg/add.svg" alt="">
                                     </div>
                                     <div class="foo_con_data">
                                         <span class="con-title">walk in :</span>
@@ -1479,7 +1479,7 @@ Purchase:
                                                     <div class="knob d3"><span></span></div>
                                                     <div class="handle"></div>
                                                     <div class="round">
-                                                        <img src="images/svg/volume.svg" alt="">
+                                                        <img src="{% static 'webapp/images/svg/volume.svg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1521,7 +1521,7 @@ Purchase:
 					</button>
                     <div class="modal-body">
                         <div class="ms_register_img">
-                            <img src="images/register_img.png" alt="" class="img-fluid" />
+                            <img src="{% static 'webapp/images/register_img.png" alt="" class="img-fluid" />
                         </div>
                         <div class="ms_register_form">
                             <h2>Register / Sign Up</h2>
@@ -1566,7 +1566,7 @@ Purchase:
 					</button>
                     <div class="modal-body">
                         <div class="ms_register_img">
-                            <img src="images/register_img.png" alt="" class="img-fluid" />
+                            <img src="{% static 'webapp/images/register_img.png" alt="" class="img-fluid" />
                         </div>
                         <div class="ms_register_form">
                             <h2>login / Sign in</h2>
@@ -1746,15 +1746,15 @@ Purchase:
         </div>
 	</div>	
     <!--Main js file Style-->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/plugins/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jplayer.playlist.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/audio-player.js"></script>
-    <script type="text/javascript" src="js/plugins/player/volume.js"></script>
-    <script type="text/javascript" src="js/plugins/nice_select/jquery.nice-select.min.js"></script>
-	<script type="text/javascript" src="js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/jquery.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/player/jplayer.playlist.min.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/player/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/player/audio-player.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/player/volume.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/plugins/nice_select/jquery.nice-select.min.js"></script>
+	<script type="text/javascript" src="{% static 'webapp/js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="{% static 'webapp/js/custom.js"></script>
 </body>
 </html>
