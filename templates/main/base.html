@@ -54,24 +54,22 @@ Purchase:
             <div class="ms_sidemenu_inner">
                 <div class="ms_logo_inner">
                     <div class="ms_logo">
-                        <a href="index.html"><img src="{% static 'webapp/images/logo.png' %}" alt="" class="img-fluid"/></a>
+                        <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/logo.png' %}" alt="" class="img-fluid"/></a>
                     </div>
                     <div class="ms_logo_open">
-                        <a href="index.html"><img src="{% static 'webapp/images/open_logo.png' %}" alt="" class="img-fluid"/></a>
+                        <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/open_logo.png' %}" alt="" class="img-fluid"/></a>
                     </div>
                 </div>
                 <div class="ms_nav_wrapper">
                     <ul>
-                        <li><a href="index.html" class="active" title="Discover">
-						<span class="nav_icon">
-							<span class="icon icon_discover"></span>
-						</span>
-						<span class="nav_text">
-							discover
-						</span>
-						</a>
+                        <li {% if request.resolver_match.url_name == 'home' %}class="active"{% endif %}>
+                            <a href="{% url 'webapp:home' %}" class="active" title="На Базу">
+                                <span class="nav_icon">
+                                    <span class="icon icon_discover"></span>
+                                </span>
+                            </a>
                         </li>
-                        <li><a href="album.html" title="Albums">
+                        <li {% if request.resolver_match.url_name == 'albums' %}class="active"{% endif %}><a href="{% url 'webapp:albums' %}" title="Альбомы">
 						<span class="nav_icon">
 							<span class="icon icon_albums"></span>
 						</span>
@@ -80,7 +78,7 @@ Purchase:
 						</span>
 						</a>
                         </li>
-                        <li><a href="artist.html" title="Artists">
+                        <li><a href="artist.html" title="Концерты">
 						<span class="nav_icon">
 							<span class="icon icon_artists"></span>
 						</span>
@@ -89,7 +87,7 @@ Purchase:
 						</span>
 						</a>
                         </li>
-                        <li><a href="genres.html" title="Genres">
+                        <li><a href="genres.html" title="Фото | Видео">
 						<span class="nav_icon">
 							<span class="icon icon_genres"></span>
 						</span>
@@ -98,7 +96,7 @@ Purchase:
 						</span>
 						</a>
                         </li>
-                        <li><a href="top_track.html" title="Top Tracks">
+                        <li><a href="top_track.html" title="Топ Треки">
 						<span class="nav_icon">
 							<span class="icon icon_tracks"></span>
 						</span>
@@ -107,21 +105,12 @@ Purchase:
 						</span>
 						</a>
                         </li>
-                        <li><a href="free_music.html" title="Free Music">
+                        <li><a href="free_music.html" title="Прослушка">
 						<span class="nav_icon">
 							<span class="icon icon_music"></span>
 						</span>
 						<span class="nav_text">
 							free music
-						</span>
-						</a>
-                        </li>
-                        <li><a href="stations.html" title="Stations">
-						<span class="nav_icon">
-							<span class="icon icon_station"></span>
-						</span>
-						<span class="nav_text">
-							stations
 						</span>
 						</a>
                         </li>

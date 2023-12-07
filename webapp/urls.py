@@ -9,6 +9,7 @@ app_name = 'webapp'
 
 urlpatterns = [
     path('', index, name='home'),
+    path('albums', albums, name='albums'),
     ]
 
 
