@@ -905,18 +905,20 @@ ul.ms_lang_box:after {
 	color: #3bc8e7;
 }
 .ms_heading h1:after {
-	width: 100px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: 0;
-	left: -15px;
-	z-index: 0;
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    left: -15px;
+    z-index: 0;
+    background: -webkit-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -moz-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -ms-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -o-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 }
+
 .ms_rcnt_box {
 	text-align: center;
 }
@@ -1649,18 +1651,20 @@ h1.footer_title {
 	margin-bottom: 18px;
 }
 h1.footer_title:after {
-	width: 100px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: 0;
-	left: -15px;
-	z-index: 0;
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    left: -15px;
+    z-index: 0;
+    background: -webkit-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -moz-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -ms-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -o-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 }
+
 .footer_box p {
 	color: #ffffff;
 	line-height: 25px;
@@ -1786,15 +1790,17 @@ h1.footer_title:after {
 	color: #3bc8e7;
 }
 .footer_border {
-	width: 250px;
-	height: 1px;
-	margin: 0 auto;
-	z-index: 0;
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    width: 250px;
+    height: 1px;
+    margin: 0 auto;
+    z-index: 0;
+    background: -webkit-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -moz-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -ms-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -o-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 }
+
 /*====Player Css Start====*/
 .ms_player_wrapper {
 	background-image: url(../images/player_bg.jpg);
@@ -2119,9 +2125,9 @@ i.ms_icon.icon_share {
 	color: #7b7c8b;
 	line-height: 24px;
 	font-weight: 600;
-	-webkit-transition-delay: 0;
-	-o-transition-delay: 0;
-	transition-delay: 0;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
 	-webkit-transition-timing-function: ease-in-out;
@@ -2137,7 +2143,7 @@ i.ms_icon.icon_share {
 	-o-transition: all .2s linear;
 	transition: all .2s linear;
 	font-size: 20px;
-	padding: 0 0px
+	padding: 0 0px;
 }
 .jp-interface .jp-controls .jp-play i,
 .jp-interface .jp-controls .jp-previous i,
@@ -3201,22 +3207,23 @@ i.fa_icon.form_close {
 }
 .ms_register_form h2:after,
 .ms_lang_popup .modal-content h1:after {
-	width: 100px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: 0;
-	left: 50%;
-	z-index: 0;
-	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #fff, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background: -webkit-radial-gradient(ellipse closest-side at 50% 50%, #fff 0%, rgba(255, 42, 112, 0) 60%);
+    background: -moz-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7 0%, rgba(255, 42, 112, 0) 60%);
+    background: -ms-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7 0%, rgba(255, 42, 112, 0) 60%);
+    background: -o-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7 0%, rgba(255, 42, 112, 0) 60%);
 }
+
 .ms_register_form .form-group {
 	position: relative;
 	margin-bottom: 20px;
@@ -3269,26 +3276,27 @@ i.fa_icon.form-lock {
 }
 .ms_register_form p a:after,
 .popup_forgot a:after {
-	width: 0px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: -8px;
-	left: 50%;
-	z-index: 0;
-	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #fff, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+    width: 0px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: -8px;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background: -webkit-radial-gradient(ellipse closest-side at 50% 50%, #fff, rgba(255, 42, 112, 0) 60%);
+    background: -moz-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -ms-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    background: -o-radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
+
 .ms_register_form p a:hover:after,
 .popup_forgot a:hover:after {
 	width: 140%;
@@ -3720,23 +3728,21 @@ ul.pro_dropdown_menu li a:hover {
 	padding-top: 35px;
 }
 .ms_plan_box h3.plan_heading:after {
-	width: 100px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: 0;
-	left: 50%;
-	z-index: 0;
-	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background: radial-gradient(ellipse closest-side at 50% 50%, #202020, rgba(255, 42, 112, 0) 60%);
 }
+
 .plan_dolar {
 	width: 89px;
 	height: 89px;
@@ -4303,18 +4309,16 @@ h2.widget-title {
 	margin-bottom: 20px;
 }
 h2.widget-title:after {
-	width: 100px;
-	height: 5px;
-	content: "";
-	position: absolute !important;
-	bottom: 0;
-	left: -25px;
-	z-index: 0;
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    left: -25px;
+    z-index: 0;
+    background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 }
+
 .widget ul {
 	padding: 0px;
 	margin: 0px;
