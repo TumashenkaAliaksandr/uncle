@@ -63,13 +63,13 @@ Purchase:
                 <div class="ms_nav_wrapper">
                     <ul>
                         <li {% if request.resolver_match.url_name == 'home' %}class="active"{% endif %}>
-                            <a href="{% url 'webapp:home' %}" class="active" title="На Базу">
+                            <a href="{% url 'webapp:home' %}" title="На Базу">
                                 <span class="nav_icon">
                                     <span class="icon icon_discover"></span>
                                 </span>
                             </a>
                         </li>
-                        <li {% if request.resolver_match.url_name == 'albums' %}class="active"{% endif %}><a href="{% url 'webapp:albums' %}" title="Альбомы">
+                        <li {% if request.resolver_match.url_name == 'albums' %}class="active" {% endif %}><a href="{% url 'webapp:albums' %}" title="Альбомы">
 						<span class="nav_icon">
 							<span class="icon icon_albums"></span>
 						</span>
