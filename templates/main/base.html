@@ -16,7 +16,7 @@ Purchase:
 <!-- Begin Head -->
 {% block head %}
 <head>
-    <title>Miraculous - Online Music Store Html Template</title>
+    <title>ДяДя | Балканская Звезда |</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="Music">
@@ -33,7 +33,7 @@ Purchase:
 	<link rel="stylesheet" type="text/css" href="{% static 'webapp/js/plugins/scroll/jquery.mCustomScrollbar.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/style.css' %}">
     <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{% static 'webapp/images/favicon.png' %}">
 </head>
 {% endblock %}
 
@@ -182,7 +182,7 @@ Purchase:
         <!----Footer Start---->
         <div class="ms_footer_wrapper">
             <div class="ms_footer_logo">
-                <a href="index.html"><img src="{% static 'webapp/images/open_logo.png' %}" alt=""></a>
+                <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/open_logo.png' %}" alt=""></a>
             </div>
             <div class="ms_footer_inner">
                 <div class="row">
