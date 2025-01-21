@@ -80,7 +80,7 @@ button:focus {
 	outline: none;
 }
 .ms_color {
-	color: #3bc8e7 !important
+	color: #22d510 !important
 }
 .form-control {
 	height: 40px;
@@ -691,7 +691,7 @@ span.nav_text {
 }
 .ms_header {
 	position: fixed;
-	background-color: #1b2039;
+	background-color: #474a42;
 	padding: 20px 50px;
 	right: 0;
 	left: 80px;
@@ -766,7 +766,7 @@ span.nav_text {
 	top: 6px;
 }
 .ms_btn {
-	background-color: #3bc8e7;
+	background-color: rgb(33, 133, 23);
 	color: #fff;
 	height: 30px;
 	display: inline-block;
