@@ -851,6 +851,9 @@ ul.ms_lang_box:after {
 	max-width: 511px;
 	width: 100%;
 	float: left;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .ms_banner_text {
 	width: calc(100% - 511px);
@@ -3250,13 +3253,13 @@ i.fa_icon.form-lock {
 .popup_forgot a:hover:after {
 	width: 140%;
 }
-.modal-open .ms_main_wrapper {
-	-webkit-filter: blur(2px);
-	-moz-filter: blur(2px);
-	-o-filter: blur(2px);
-	-ms-filter: blur(2px);
-	filter: blur(2px);
-}
+/*.modal-open .ms_main_wrapper {*/
+/*	-webkit-filter: blur(2px);*/
+/*	-moz-filter: blur(2px);*/
+/*	-o-filter: blur(2px);*/
+/*	-ms-filter: blur(2px);*/
+/*	filter: blur(2px);*/
+/*}*/
 .ms_register_form .remember_checkbox {
 	float: left;
 	font-size: 15px;
