@@ -1,6 +1,6 @@
 <h1 align="center">Hi, this is the website of rock band <a href="https://DRDR.com" target="_blank">DDЯ</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<img src="https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif" height="280" width="100%"/>
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif' %}" height="32"/></h1>
+<img src="https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif' %}" height="280" width="100%"/>
 
 *The site consists of the following pages:*
 ***
