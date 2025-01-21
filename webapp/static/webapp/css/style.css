@@ -44,7 +44,7 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	color: #777777;
-	background-color: #14182a;
+	background-color: #252926;
 }
 /*====Normal Css Start====*/
 h1,
@@ -442,7 +442,7 @@ body.loaded .ms_loader {
 }
 .ms_nav_wrapper ul li a:hover,
 .ms_nav_wrapper ul li a.active {
-	background-color: #2cc8e5;
+	background-color: #dc4d0d;
 	background-position: 0px 0px;
 	color: #ffffff;
 }
@@ -608,7 +608,7 @@ span.nav_text {
 }
 .ms_sidemenu_inner {
 	width: 80px;
-	background-color: #1b2039;
+	background-color: #474a42;
 	height: 100%;
 	z-index: 1;
 }
@@ -713,7 +713,7 @@ span.nav_text {
 	top: 0;
 	height: 40px;
 	line-height: 40px;
-	background-color: #3bc8e7;
+	background-color: #218517;
 	border-radius: 0px 5px 5px 0px;
 	padding: 0px 16px;
 	cursor: pointer;
@@ -771,7 +771,7 @@ span.nav_text {
 	height: 30px;
 	display: inline-block;
 	text-transform: capitalize;
-	width: 100px;
+	width: 110px;
 	text-align: center;
 	line-height: 32px;
 	border-radius: 20px;
@@ -784,7 +784,7 @@ span.nav_text {
 }
 .ms_btn:hover {
 	color: #ffffff;
-	box-shadow: 0px 0px 20px 0px #3bc8e7;
+	box-shadow: 0px 0px 20px 0px #e14b0d;
 }
 .ms_top_right .ms_top_lang img {
 	margin-left: 15px;
@@ -866,7 +866,7 @@ ul.ms_lang_box:after {
 	margin-right: 25px;
 	line-height: 45px;
 	margin-left: 0;
-	max-width: 150px;
+	max-width: 190px;
 	font-weight: 600;
 }
 .ms_banner_text h1 {
@@ -877,6 +877,7 @@ ul.ms_lang_box:after {
 .ms_banner_text p {
 	margin: 15px 0px 40px;
 	line-height: 30px;
+	text-decoration-color: #dc4d0d;
 }
 /*====Recent Music Slider====*/
 .ms_rcnt_slider {
@@ -1861,9 +1862,7 @@ h1.footer_title:after {
 	width: auto;
 	position: absolute;
 	border-radius: 0px 12px 12px 0px;
-	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(33, 133, 23) 0%, rgb(229, 74, 13) 100%);
 	box-shadow: 0px 0px 24px 6px rgba(4, 4, 4, 0.2);
 	float: left;
 	z-index: 10;
@@ -2180,7 +2179,7 @@ i.ms_icon.icon_share {
 	right: -7px;
 	height: 15px;
 	width: 15px;
-	background: #3bc8e7;
+	background: #22d510;
 	border-radius: 50%;
 	box-shadow: 0px 0px 15px rgb(255, 255, 255);
 }
