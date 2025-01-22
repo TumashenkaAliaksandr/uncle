@@ -24,6 +24,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 padding_right40">
+                            {% for main_musc_slider in music_album %}
                             <div class="ms_weekly_box">
                                 <div class="weekly_left">
                                     <span class="w_top_no">
@@ -39,8 +40,8 @@
                                             </div>
                                         </div>
                                         <div class="w_tp_song_name">
-                                            <h3><a href="#">Until I Met You</a></h3>
-                                            <p>Ava Cornish</p>
+                                            <h3><a href="#">{{ main_musc_slider.title }}</a></h3>
+                                            <p>{{ main_musc_slider.artist }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,6 +59,7 @@
                                     <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                 </ul>
                             </div>
+                            {% endfor %}
                             <div class="ms_divider"></div>
                             <div class="ms_weekly_box">
                                 <div class="weekly_left">
