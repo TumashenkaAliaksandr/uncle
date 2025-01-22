@@ -48,7 +48,7 @@ body {
 }
 
 .background-main {
-	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_casseta_bg1.jpg') center/cover;
+	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_techin_rag.jpg') center/cover;
 	background-attachment: scroll, scroll;
 	background-attachment: fixed;
 }
@@ -89,7 +89,8 @@ button:focus {
 	outline: none;
 }
 .ms_color {
-	color: #22d510 !important
+	color: #22d510 !important;
+	opacity: 0.80;
 }
 .form-control {
 	height: 40px;
@@ -883,8 +884,8 @@ ul.ms_lang_box:after {
 	width: 100%;
 	float: left;
 	padding-right: 5%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 10.5%;
+	/*padding-bottom: 5%;*/
 }
 .ms_banner_text {
 	width: calc(100% - 511px);
@@ -1635,7 +1636,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/uncle_cassets.jpg);
+	background-image: url(../images/uncke_drew_zacatki.jpeg);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
