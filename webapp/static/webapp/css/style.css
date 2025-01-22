@@ -46,6 +46,14 @@ body {
 	color: #777777;
 	background-color: #252926;
 }
+
+.background-main {
+	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_casseta_bg1.jpg') center/cover;
+	background-attachment: scroll, scroll;
+	background-attachment: fixed;
+}
+
+
 /*====Normal Css Start====*/
 h1,
 h2,
@@ -63,7 +71,7 @@ h6,
 	font-family: inherit;
 	font-weight: 600;
 	line-height: 1.2;
-	color: #3bc8e7;
+	color: #23cd12;
 }
 a {
 	color: #3bc8e7;
@@ -427,7 +435,7 @@ body.loaded .ms_loader {
 .ms_nav_wrapper ul li a:after {
 	position: absolute;
 	height: 2px;
-	background-color: #252b4d;
+	background-color: #107232;
 	bottom: 0px;
 	left: 20px;
 	right: 20px;
@@ -448,7 +456,7 @@ body.loaded .ms_loader {
 }
 .ms_nav_wrapper ul li a:hover:after,
 .ms_nav_wrapper ul li a.active:after {
-	background-color: #3bc8e7;
+	background-color: #22d510;
 }
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon {
@@ -620,7 +628,7 @@ span.nav_text {
 	position: absolute;
 	right: -24px;
 	top: 50%;
-	background-color: #1b2039;
+	background-color: #363636;
 	border-radius: 100%;
 	cursor: pointer;
 	transform: translateY(-50%);
@@ -861,7 +869,7 @@ ul.ms_lang_box:after {
 	padding-top: 135px;
 }
 .ms_banner_text .ms_banner_btn .ms_btn {
-	height: 40px;
+	height: 44px;
 	width: 100%;
 	margin-right: 25px;
 	line-height: 45px;
@@ -875,9 +883,15 @@ ul.ms_lang_box:after {
 	color: #fff;
 }
 .ms_banner_text p {
+	line-height: 30px;
+	padding-bottom: 4.5%;
+}
+
+.banner_text p {
 	margin: 15px 0px 40px;
 	line-height: 30px;
 	text-decoration-color: #dc4d0d;
+	font-size: 19px;
 }
 /*====Recent Music Slider====*/
 .ms_rcnt_slider {
@@ -906,7 +920,7 @@ ul.ms_lang_box:after {
 	text-transform: capitalize;
 }
 .veiw_all a:hover {
-	color: #3bc8e7;
+	color: #23cd12;
 }
 
 .ms_heading h1:after {
@@ -917,7 +931,7 @@ ul.ms_lang_box:after {
   bottom: 0;
   left: -15px;
   z-index: 0;
-  background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+  background: radial-gradient(ellipse closest-side at 50% 50%, #23cd12, rgba(255, 42, 112, 0) 60%);
 }
 
 
@@ -949,7 +963,7 @@ ul.ms_lang_box:after {
 .ms_rcnt_box_text p,
 .w_top_song .w_tp_song_name p {
 	color: #dedede;
-	font-size: 14px;
+	font-size: 25px;
 	margin: 0px;
 }
 .ms_rcnt_box_text h3 a:hover,
@@ -1009,9 +1023,7 @@ ul.ms_lang_box:after {
 .ms_box_overlay {
 	position: absolute;
 	border-radius: 10px;
-	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgba(32, 167, 196, 0) 100%);
+	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(35, 205, 18) 0%, rgba(32, 167, 196, 0) 100%);
 	height: 100%;
 	width: 100%;
 	left: 0;
@@ -1168,7 +1180,7 @@ ul.more_option li a {
 }
 ul.more_option li a:hover,
 .ms_rcnt_box:hover .ms_rcnt_box_text h3 a {
-	color: #3bc8e7;
+	color: #23cd12;
 }
 ul.more_option li a .opt_icon {
 	padding-right: 10px;
@@ -1338,11 +1350,11 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .ms_weekly_box.ms_active_play .w_tp_song_name h3 a,
 .ms_release_box:hover .w_tp_song_name h3 a,
 .ms_release_box.ms_active_play .w_tp_song_name h3 a {
-	color: #3bc8e7;
+	color: #23cd12;
 }
 .ms_weekly_box:hover .weekly_left span.w_top_no,
 .ms_weekly_box.ms_active_play .weekly_left span.w_top_no {
-	color: #3bc8e7;
+	color: #23cd12;
 }
 .ms_bars {
 	height: 20px;
@@ -1450,7 +1462,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	box-shadow: 0 0 10px rgba(22, 26, 45, 0.27);
 	background-image: none;
-	background: rgba(37, 43, 77, 0.75);
+	background: rgba(220, 77, 13);
 }
 .ms_release_box {
 	padding-top: 20px;
@@ -1460,7 +1472,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	content: "";
 	width: 10px;
 	height: 10px;
-	background-color: #3bc8e7;
+	background-color: #22d510;
 	top: -26px;
 	left: 38px;
 	border-radius: 100%;
@@ -1474,7 +1486,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	content: "";
 	width: 6px;
 	height: 6px;
-	background-color: #14182a;
+	background-color: #dc4d0d;
 	top: 2px;
 	left: 2px;
 	border-radius: 100%;
@@ -1493,7 +1505,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 .ms_releases_wrapper .swiper-slide.swiper-slide-active .w_top_song .w_tp_song_name h3 a {
-	color: #3bc8e7;
+	color: rgb(35, 205, 18);
 }
 .ms_releases_wrapper .swiper-slide.swiper-slide-active .w_top_song .ms_song_overlay {
 	opacity: 1;
@@ -1577,9 +1589,7 @@ span.ovrly_text2 {
 	height: 100%;
 	top: 0;
 	border-radius: 10px;
-	background-image: -moz-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
+	background-image: -moz-linear-gradient( 90deg, rgb(33, 133, 23) 0%, rgb(237, 63, 63) 0%, rgb(220, 77, 13) 0%, rgba(32, 167, 196, 0) 100%);
 	transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1601,7 +1611,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/footer_bg.png);
+	background-image: url(../images/uncle_cassets.jpg);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -1616,9 +1626,7 @@ span.ovrly_text2 {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	background-image: -webkit-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -moz-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -ms-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(37, 41, 38) 0%, rgba(32, 167, 196, 0) 100%);
 	background-color: rgba(20, 24, 42, 0.3);
 }
 .ms_footer_inner {
@@ -1657,7 +1665,7 @@ h1.footer_title:after {
   bottom: 0;
   left: -15px;
   z-index: 0;
-  background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+  background: radial-gradient(ellipse closest-side at 50% 50%, #22d510, rgba(255, 42, 112, 0) 60%);
 }
 .footer_box p {
 	color: #ffffff;
@@ -1704,9 +1712,7 @@ h1.footer_title:after {
 	line-height: 40px;
 	float: left;
 	border-radius: 5px;
-	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(33, 133, 23) 0%, rgb(218, 77, 14) 100%);
 }
 .footer_box.footer_contacts ul.foo_con_info li .foo_con_data {
 	width: calc(100% - 40px);
@@ -1758,9 +1764,7 @@ h1.footer_title:after {
 	text-align: center;
 	line-height: 35px;
 	border-radius: 5px;
-	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(34, 213, 16) 0%, rgb(223, 76, 13) 100%);
 }
 .foo_sharing ul li a:hover {
 	box-shadow: 0 0 18px 0 #3bc8e7;
@@ -1781,14 +1785,14 @@ h1.footer_title:after {
 	padding: 20px 0px;
 }
 .ms_copyright p a {
-	color: #3bc8e7;
+	color: #22d510;
 }
 .footer_border {
   width: 250px;
   height: 1px;
   margin: 0 auto;
   z-index: 0;
-  background: radial-gradient(ellipse closest-side at 50% 50%, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+  background: radial-gradient(ellipse closest-side at 50% 50%, #22d510, rgba(255, 42, 112, 0) 60%);
 }
 
 /*====Player Css Start====*/
@@ -5419,7 +5423,7 @@ h2.widget-title:after {
 	.ms_weekly_box {
 		min-height: auto;
 		padding: 25px 0px 21px 0px;
-		border-bottom: 1px solid #252b4d;
+		border-bottom: 1px solid #d94d0e;
 	}
 	.ms_weekly_inner .ms_divider {
 		display: none;
