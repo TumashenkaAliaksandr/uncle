@@ -202,6 +202,15 @@ select.form-control:not([size]):not([multiple]) {
 	height: 10vh; /* Высота контейнера (например, на весь экран) */
 }
 
+.fixed-size-image-two {
+	width: auto; /* Фиксированная ширина */
+	object-fit: cover; /* Сохранение пропорций изображения */
+	display: flex; /* Включаем Flexbox */
+	justify-content: center; /* Центрируем по горизонтали */
+	align-items: center; /* Центрируем по вертикали (если нужно) */
+	height: 21vh; /* Высота контейнера (например, на весь экран) */
+}
+
 
 body.loaded .ms_loader {
 	display: none;
