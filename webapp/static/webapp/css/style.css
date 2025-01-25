@@ -48,7 +48,7 @@ body {
 }
 
 .background-main {
-	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_techin_rag.jpg') center/cover;
+	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/69V.gif') center/cover;
 	background-attachment: scroll, scroll;
 	background-attachment: fixed;
 }
@@ -197,7 +197,7 @@ select.form-control:not([size]):not([multiple]) {
 .fixed-size-image {
 	width: auto; /* Фиксированная ширина */
 	object-fit: cover; /* Сохранение пропорций изображения */
-	display: flex; /* Включаем Flexbox */
+	/*display: flex; !* Включаем Flexbox *!*/
 	justify-content: center; /* Центрируем по горизонтали */
 	align-items: center; /* Центрируем по вертикали (если нужно) */
 	height: 10vh; /* Высота контейнера (например, на весь экран) */
@@ -209,7 +209,7 @@ select.form-control:not([size]):not([multiple]) {
 	display: flex; /* Включаем Flexbox */
 	justify-content: center; /* Центрируем по горизонтали */
 	align-items: center; /* Центрируем по вертикали (если нужно) */
-	height: 21vh; /* Высота контейнера (например, на весь экран) */
+	height: 18vh; /* Высота контейнера (например, на весь экран) */
 }
 
 
@@ -217,18 +217,18 @@ body.loaded .ms_loader {
 	display: none;
 }
 .ms_loader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1000000;
-	background-color: #14182a;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+    background: linear-gradient(rgba(37, 41, 38, 0.9), rgba(71, 74, 66, 0.9)),
+                url('../images/3QAe.gif') center/cover no-repeat;
+    background-attachment: fixed;
+    transition: all 0.3s ease-in-out;
 }
+
 .ms_inner_loader .ms_loader {
 	background-color: #14182a;
 }
@@ -638,7 +638,7 @@ span.nav_text {
 }
 .ms_sidemenu_inner {
 	width: 80px;
-	background-color: #474a42;
+	background-color: #474a427a;
 	height: 100%;
 	z-index: 1;
 }
@@ -721,7 +721,7 @@ span.nav_text {
 }
 .ms_header {
 	position: fixed;
-	background-color: #474a42;
+	background-color: #5e61588a;
 	padding: 20px 50px;
 	right: 0;
 	left: 80px;
@@ -1303,6 +1303,8 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .w_top_song .w_tp_song_img img {
 	border-radius: 5px;
 	max-width: 100%;
+	height: 42px;
+	width: 45px;
 }
 .w_song_time {
 	padding-right: 40px;
@@ -1636,7 +1638,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/uncke_drew_zacatki.jpeg);
+	background-image: url(../images/69V.gif);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -2356,7 +2358,7 @@ i.ms_icon.icon_share {
 	margin-top: 26px;
 }
 .jp_queue_wrapper span.que_text {
-	background-color: #2ec8e6;
+	background-color: #33672bad;
 	height: 30px;
 	display: inline-block;
 	line-height: 33px;
@@ -3124,9 +3126,7 @@ span.ms_frequency {
 	background-color: transparent;
 	border: none;
 	border-radius: 10px;
-	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(209, 41, 28) 0%, rgb(58, 87, 37) 100%);
 }
 .modal {
 	overflow: hidden;

@@ -15,6 +15,7 @@ class Song(models.Model):
     title = models.CharField(max_length=200)
     audio_file = models.FileField(upload_to='song_files', blank=False)
     video_file = models.FileField(upload_to='video_files', blank=True, null=True)
+    photo_file = models.ImageField(upload_to='photo_files_songs', blank=True, null=True)
 
     def __str__(self):
         return self.title
