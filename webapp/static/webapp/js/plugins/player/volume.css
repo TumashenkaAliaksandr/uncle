@@ -38,10 +38,10 @@ body {
 .knob-container .knob-wrapper-outer .knob-wrapper {
   width: 55px;
   position: relative;
-  cursor: -webkit-grab;
+  cursor: grab;
 }
 .knob-container .knob-wrapper-outer .knob-wrapper:active {
-  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 .knob-container .knob-wrapper-outer .knob-wrapper .knob-mask {
   width: 100%;

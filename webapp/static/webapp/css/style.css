@@ -39,7 +39,7 @@ Author: Kamleshyadav
 -------------------------------------------------------------------*/
 body {
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Palatino Linotype', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -48,7 +48,7 @@ body {
 }
 
 .background-main {
-	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/69V.gif') center/cover;
+	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_techin_rag.jpg') center/cover;
 	background-attachment: scroll, scroll;
 	background-attachment: fixed;
 }
@@ -1303,8 +1303,8 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .w_top_song .w_tp_song_img img {
 	border-radius: 5px;
 	max-width: 100%;
-	height: 42px;
-	width: 45px;
+	height: 45px;
+	width: 50px;
 }
 .w_song_time {
 	padding-right: 40px;
@@ -1638,7 +1638,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/69V.gif);
+	background-image: url(../images/7aQv.gif);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -1863,11 +1863,18 @@ h1.footer_title:after {
 	-moz-transform: translateY(-50%) rotate(180deg);
 	-ms-transform: translateY(-50%) rotate(180deg);
 }
+.jp-now-playing .que_img img {
+    width: 100px;  /* Установите нужную ширину */
+    height: auto;  /* Высота будет автоматически подстраиваться */
+    max-height: 100px;  /* Установите максимальную высоту */
+    object-fit: cover;  /* Обрезка изображения, чтобы сохранить пропорции */
+}
+
 .ms_player_close {
 	position: absolute;
 	top: -26px;
 	right: 8px;
-	background-color: #1b2039;
+	background-color: #285b218a;
 	width: 55px;
 	height: 27px;
 	text-align: center;
@@ -1911,7 +1918,7 @@ h1.footer_title:after {
 }
 .play_song_name .que_data {
 	width: calc(100% - 50px);
-	padding-left: 15px;
+	padding-left: 60px;
 	float: left;
 }
 .play_song_name h3 {
@@ -1952,7 +1959,7 @@ span.play-left-arrow {
 	display: inline-block;
 	float: left;
 	width: 300px;
-	padding: 13px 0px 15px 30px;
+	padding: 13px 0 15px 30px;
 	height: 75px;
 }
 .play_song_options {
@@ -2446,7 +2453,7 @@ i.ms_icon.icon_share {
 .que_close {
 	width: 20px;
 	height: 20px;
-	background-color: #3bc8e7;
+	background-color: #346428;
 	display: inline-block;
 	text-align: center;
 	border-radius: 100%;
@@ -2464,8 +2471,8 @@ div#playlist-wrap span#myPlaylistQueue {
 	top: 45px;
 }
 .jp_queue_btn a {
-	height: 30px;
-	background-color: #3bc8e7;
+	height: 34px;
+	background-color: #346428;
 	color: #fff;
 	display: inline-block;
 	padding: 0px 32px;
@@ -4454,7 +4461,7 @@ h2.widget-title:after {
 	}
 	.ms_rcnt_box_text h3,
 	.w_top_song .w_tp_song_name h3 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.footer_box {
 		padding-right: 20px;
@@ -4585,7 +4592,7 @@ h2.widget-title:after {
 	}
 	.ms_play_song {
 		width: 281px;
-		padding: 15px 0px 15px 25px;
+		padding: 15px 0 15px 25px;
 	}
 	.weekly_left span.w_top_no {
 		width: 70px;
@@ -5077,7 +5084,7 @@ h2.widget-title:after {
 	}
 	.ms_play_song {
 		width: 100px;
-		padding: 13px 0px 10px 15px;
+		padding: 13px 0 10px 15px;
 		height: 70px;
 	}
 	.jp_queue_wrapper {
