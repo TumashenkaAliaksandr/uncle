@@ -1319,8 +1319,10 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	width: 100%;
 	border: 0;
 	height: 2px;
-	background: #252b4d;
-	background-image: linear-gradient(to left, #252b4d, #252b4d, #161a2d);
+	background: #28af18;
+    background-image: linear-gradient(to left, #28af18, #252b4d, #cc241b);
+	margin-top: 13px;
+    margin-bottom: 13px;
 }
 .ms_weekly_box ul.more_option.open_option {
 	opacity: 1;
@@ -4635,7 +4637,7 @@ h2.widget-title:after {
 	}
 	.ms_weekly_box {
 		padding: 20px 0px 20px 0px;
-		border-bottom: 1px solid #252b4d;
+		border-bottom: 1px solid #218517;
 	}
 	.ms_weekly_inner .ms_divider {
 		display: none;
