@@ -1303,7 +1303,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .w_top_song .w_tp_song_img img {
 	border-radius: 5px;
 	max-width: 100%;
-	height: 45px;
+	height: 50px;
 	width: 50px;
 }
 .w_song_time {
@@ -1349,7 +1349,8 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	top: -40%;
 	left: 50%;
 	cursor: pointer;
-	width: 30px;
+	width: 50px;
+	height: 50px;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);

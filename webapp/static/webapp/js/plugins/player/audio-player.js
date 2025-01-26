@@ -250,9 +250,21 @@ $(function () {
                 var playlist = myPlaylist.playlist;
                 $.each(playlist, function (index, obj) {
                     if (index === current) {
-                        $(".jp-now-playing").html("<div class='jp-track-name'><span class='que_img'><img src='" + obj.image + "'></span><div class='que_data'>" + obj.title + " <div class='jp-artist-name'>" + obj.artist + "</div></div></div>");
+                        $(".jp-now-playing").html("<div class='jp-track-name'><span class='que_img'><img src='" + obj.image + "' alt=''></span><div class='que_data'>" + obj.title + " <div class='jp-artist-name'>" + obj.artist + "</div></div></div>");
                     }
                 });
+            });
+
+            // Обработка кликов по кнопкам воспроизведения
+            $('.ms_play_icon').on('click', function() {
+                var playlistId = $(this).data('playlist-id');  // Получаем ID песни из атрибута data-playlist-id
+                myPlaylist.play(playlistId);  // Запускаем воспроизведение выбранной песни
+
+                // Обновляем информацию о текущей песне в jp-now-playing
+                var currentSong = playlist[playlistId];
+                $(".jp-now-playing .jp-track-name").text(currentSong.title);
+                $(".jp-now-playing .jp-artist-name").text(currentSong.artist);
+                $(".jp-now-playing .que_img img").attr("src", currentSong.image);
             });
 
             // Обработка событий для управления громкостью
@@ -336,15 +348,6 @@ $(function () {
             $('.hide_player').unbind().on('click', function() {
                 $('.audio-player').toggleClass('is_hidden');
                 $(this).html($(this).html() == '<i class="fa fa-angle-down"></i> HIDE' ? '<i class="fa fa-angle-up"></i> SHOW PLAYER' : '<i class="fa fa-angle-down"></i> HIDE');
-            });
-
-            // Обработка кликов на кнопки воспроизведения в плейлисте
-            $('body').unbind().on('click', '.audio-play-btn', function() {
-                $('.audio-play-btn').removeClass('is_playing');
-                $(this).addClass('is_playing');
-
-                var playlistId = $(this).data('playlist-id');
-                myPlaylist.play(playlistId);
             });
         });
     }
