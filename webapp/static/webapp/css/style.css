@@ -2307,11 +2307,11 @@ i.ms_icon.icon_share {
 	position: absolute;
 	right: 0;
 	bottom: -2%;
-	background: #1b2039;
-	padding: 40px 0px 25px 0px;
+	background: #45474099;
+	padding: 40px 0 25px 0;
 	width: 350px;
-	box-shadow: 0px 0px 24px 6px rgba(4, 4, 4, 0.2);
-	border-radius: 12px 0px 0px 12px;
+	box-shadow: 0 0 24px 6px rgba(4, 4, 4, 0.2);
+	border-radius: 12px 0 0 12px;
 	z-index: 10;
 }
 .jp-playlist ul {
@@ -2331,7 +2331,7 @@ i.ms_icon.icon_share {
 	-o-transition: all 0.3s ease-in-out;
 }
 .jp-playlist li:hover {
-	background-color: #2ec8e6;
+	background-color: #043a02ab;
 }
 .jp-playlist li a {
 	color: #fff;
@@ -2432,7 +2432,7 @@ i.ms_icon.icon_share {
 	line-height: 30px;
 }
 .jp-playlist li.jp-playlist-current {
-	background-color: #252b4d;
+	background-color: #45474099;
 }
 .jp-playlist .action {
 	overflow: auto;
@@ -2450,6 +2450,7 @@ i.ms_icon.icon_share {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
+	display: none;
 }
 .jp-playlist li.jp-playlist-current .action,
 .jp-playlist li:hover .action {
