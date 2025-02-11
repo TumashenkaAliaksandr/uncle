@@ -48,7 +48,7 @@ body {
 }
 
 .background-main {
-	background: linear-gradient(rgba(37, 41, 38, 0.9), rgb(71, 74, 66, 0.9)), url('../images/uncle_techin_rag.jpg') center/cover;
+	background: linear-gradient(rgba(37, 41, 38, 0.85), rgb(71, 74, 66, 0.85)), url('../images/uncle-rob.gif') center/cover;
 	background-attachment: scroll, scroll;
 	background-attachment: fixed;
 }
@@ -103,7 +103,7 @@ button:focus {
 	border: 1px solid transparent;
 }
 .form-control:focus {
-	box-shadow: 0px 0px 10px rgba(59, 200, 231, 0.55);
+	box-shadow: 0 0 10px rgba(59, 200, 231, 0.55);
 	border: 1px solid #3bc8e7;
 }
 select.form-control:not([size]):not([multiple]) {
@@ -224,7 +224,7 @@ body.loaded .ms_loader {
     height: 100%;
     z-index: 1000000;
     background: linear-gradient(rgba(37, 41, 38, 0.9), rgba(71, 74, 66, 0.9)),
-                url('../images/3QAe.gif') center/cover no-repeat;
+                url('../images/uncle_ufo.gif') center/cover no-repeat;
     background-attachment: fixed;
     transition: all 0.3s ease-in-out;
 }
@@ -237,8 +237,8 @@ body.loaded .ms_loader {
 }
 .ms_loader .wrap {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	left: 20%;
+	top: 30%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
@@ -472,7 +472,7 @@ body.loaded .ms_loader {
 .ms_nav_wrapper ul li a:hover,
 .ms_nav_wrapper ul li a.active {
 	background-color: #f42113;
-	background-position: 0px 0px;
+	background-position: 0 0;
 	color: #ffffff;
 	opacity: 0.8;
 }
@@ -518,7 +518,7 @@ body.loaded .ms_loader {
 }
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon.icon_discover,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon.icon_discover {
-	background-position: 0px -28px;
+	background-position: 0 -28px;
 }
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon.icon_albums,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon.icon_albums {
@@ -585,7 +585,7 @@ span.nav_text {
 	top: 10px;
 	left: 100%;
 	background-color: #32353d;
-	padding: 0px 12px;
+	padding: 0 12px;
 	white-space: nowrap;
 }
 .shop_body.sidebar_hide .wx_sidebar_wrapper .wx_sidebar_nav ul>li>a>.nav_text:after {
@@ -744,15 +744,15 @@ span.nav_text {
 	height: 40px;
 	line-height: 40px;
 	background-color: #218517;
-	border-radius: 0px 5px 5px 0px;
-	padding: 0px 16px;
+	border-radius: 0 5px 5px 0;
+	padding: 0 16px;
 	cursor: pointer;
 	opacity: 0.70;
 }
 .ms_top_search .form-control {
 	display: inline-block;
 	height: 40px;
-	padding: 0px 20px;
+	padding: 0 20px;
 	font-size: 15px;
 	line-height: 45px;
 	color: #777;
@@ -815,7 +815,7 @@ span.nav_text {
 }
 .ms_btn:hover {
 	color: #ffffff;
-	box-shadow: 0px 0px 20px 0px #e14b0d;
+	box-shadow: 0 0 20px 0 #e14b0d;
 	opacity: 0.7;
 }
 .ms_top_right .ms_top_lang img {
@@ -823,8 +823,8 @@ span.nav_text {
 	margin-right: 6px;
 }
 ul.ms_lang_box {
-	padding: 5px 0px;
-	margin: 0px;
+	padding: 5px 0;
+	margin: 0;
 	list-style: none;
 	background-color: #3bc8e7;
 	width: 100%;
@@ -1476,7 +1476,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 .ms_featured_slider,
 .ms_releases_wrapper {
 	position: relative;
-	margin: 40px 0px 0px 0px;
+	margin: 40px 0 0 0;
 }
 /*====Advertisment Css Start====*/
 .ms_advr_wrapper {
@@ -1549,7 +1549,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 }
 .swiper-slide.swiper-slide-active .slider_dot,
 .ms_release_box:hover .slider_dot {
-	box-shadow: 0px 0px 10px rgb(255, 255, 255);
+	box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .ms_releases_wrapper .swiper-slide.swiper-slide-active .w_top_song .w_tp_song_name h3 a {
 	color: rgb(35, 205, 18);
@@ -1575,11 +1575,11 @@ ul.more_option li a:hover .opt_icon .icon_share {
 /*====Featured Album Slider Css Start====*/
 .ms_fea_album_slider {
 	position: relative;
-	margin: 52px 0px 0px 0px;
+	margin: 52px 0 0 0;
 }
 /*====Top Genres Css Start====*/
 .ms_genres_wrapper {
-	margin: 50px 0px 0px 0px;
+	margin: 50px 0 0 0;
 }
 .ms_genres_box {
 	margin-bottom: 30px;
@@ -1601,7 +1601,7 @@ ul.more_option li a:hover .opt_icon .icon_share {
 	position: absolute;
 	width: 100%;
 	bottom: -40%;
-	padding: 0px 20px;
+	padding: 0 20px;
 	transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1658,7 +1658,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/7aQv.gif);
+	background-image: url(../images/26038-355469027_medium.gif);
 	background-size: cover;
 	position: relative;
 	z-index: 1;

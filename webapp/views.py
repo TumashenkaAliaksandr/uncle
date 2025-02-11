@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import render
 
-from webapp.models import Album, Song
+from webapp.models import Album, Song, Release, SongRelease
 
 
 # Create your views here.
@@ -9,9 +9,13 @@ def index(request):
     """Main page music site ДяДя"""
     music_album = Album.objects.all()
     songs = Song.objects.all()
+    release = Release.objects.all()
+    songs_release = SongRelease.objects.all()
     context = {
         'music_album': music_album,
         'songs': songs,
+        'release': release,
+        'songs_release': songs_release,
     }
     return render(request, 'webapp/index.html', context=context)
 

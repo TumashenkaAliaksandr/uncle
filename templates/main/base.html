@@ -44,7 +44,7 @@ Purchase:
 <!----Loader Start---->
 <div class="ms_loader">
     <div class="wrap">
-        <img src="{% static 'webapp/images/4AI9.gif' %}" alt="">
+        <img src="{% static 'webapp/images/3BBS.gif' %}" alt="">
     </div>
 </div>
 <!----Main Wrapper Start---->
@@ -57,16 +57,16 @@ Purchase:
         <div class="ms_sidemenu_inner">
             <div class="ms_logo_inner">
                 <div class="ms_logo">
-                    <a href="index.html"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" alt="" class="img-fluid"/></a>
+                    <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" alt="" class="img-fluid"/></a>
                 </div>
                 <div class="ms_logo_open">
-                    <a href="index.html"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" alt=""
+                    <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" alt=""
                                               class="fixed-size-image-two img-fluid"/></a>
                 </div>
             </div>
             <div class="ms_nav_wrapper">
                 <ul>
-                    <li><a href="index.html" class="active" title="home">
+                    <li><a href="{% url 'webapp:home' %}" class="active" title="home">
 						<span class="nav_icon">
 							<span class="icon icon_discover"></span>
 						</span>
@@ -225,7 +225,7 @@ Purchase:
         <!----Footer Start---->
         <div class="ms_footer_wrapper">
             <div class="ms_footer_logo">
-                <a href="index.html"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" class="fixed-size-image" alt=""></a>
+                <a href="{% url 'webapp:home' %}"><img src="{% static 'webapp/images/uncle_music_logo_nbg.png' %}" class="fixed-size-image" alt=""></a>
             </div>
             <div class="ms_footer_inner">
                 <div class="row">
