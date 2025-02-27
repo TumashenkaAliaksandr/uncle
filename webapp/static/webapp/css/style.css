@@ -1651,14 +1651,14 @@ span.ovrly_text2 {
 /*====Live Radio Css Start==== */
 .ms_radio_wrapper {
 	position: relative;
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0 0 0;
 }
 .ms_radio_slider {
 	position: relative;
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/26038-355469027_medium.gif);
+	background-image: url(../images/PGo1.gif);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
