@@ -33,3 +33,16 @@ window.addEventListener("click", function(event) {
         }
     }
 });
+
+document.getElementById('song-list').addEventListener('click', function(event) {
+    if (event.target.tagName === 'LI') {
+        var songSrc = event.target.getAttribute('data-song-src');
+        if (songSrc) {
+            var link = document.createElement('a');
+            link.href = songSrc;
+            link.download = songSrc.split('/').pop(); // Установить имя файла для скачивания
+            link.click();
+        }
+    }
+});
+
