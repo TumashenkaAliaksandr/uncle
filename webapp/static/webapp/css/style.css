@@ -1658,7 +1658,7 @@ span.ovrly_text2 {
 }
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
-	background-image: url(../images/PGo1.gif);
+	background-image: url(../images/5WIA.gif);
 	background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -1884,7 +1884,7 @@ h1.footer_title:after {
 	-ms-transform: translateY(-50%) rotate(180deg);
 }
 .jp-now-playing .que_img img {
-    width: 100px;  /* Установите нужную ширину */
+    width: 50px;  /* Установите нужную ширину */
     height: auto;  /* Высота будет автоматически подстраиваться */
     max-height: 100px;  /* Установите максимальную высоту */
     object-fit: cover;  /* Обрезка изображения, чтобы сохранить пропорции */
